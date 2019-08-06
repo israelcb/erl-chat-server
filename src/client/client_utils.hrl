@@ -1,0 +1,3 @@
+-define(TO_SRV(Req), ?SRV_LC ! Req).
+-define(REQ(Req), #srv__request{node=node(), request=Req}).
+-define(PERFORM_REQUEST(Req), ?TO_SRV(?REQ(Req))).

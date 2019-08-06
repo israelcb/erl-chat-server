@@ -1,0 +1,1 @@
+-define(LMA, list_manager).

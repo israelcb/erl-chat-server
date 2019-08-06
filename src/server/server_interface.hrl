@@ -1,0 +1,9 @@
+-record(lma__do, {what, params}).
+-record(lma__remove_user, {node}).
+-record(lma__wait, {event, from}).
+-record(lma__send_userlist, {node}).
+-record(lma__add_user, {node, name}).
+-record(lma__remove_user_event, {node}).
+-record(lma__search_by_name, {name, do}).
+-record(lma__search_by_node, {node, do}).
+-record(lma__data, {users=[], event_waits=[]}).
